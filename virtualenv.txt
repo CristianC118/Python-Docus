@@ -1,0 +1,17 @@
+virtualenv -p python env:
+	creamos el entorno virtual
+
+.\env\Scripts\activate:
+	activamos el entorno virtual
+
+pip list:
+	ver paquetes disponibles (siempre estando en el entorno virtual)
+
+deactivate:
+	sirve para desactivar el entorno
+
+pip freeze > requirements.txt:
+	exportar paquetes
+
+pip install -r requirements.txt:
+	instalar paquetes de otro proyecto
